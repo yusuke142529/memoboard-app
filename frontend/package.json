@@ -1,0 +1,55 @@
+{
+  "name": "memoapp-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "@mui/material": "^5.0.0",
+    "@reduxjs/toolkit": "1.9.1",
+    "@types/node": "18.11.9",
+    "axios": "1.7.7",
+    "formik": "^2.2.9",
+    "jwt-decode": "3.1.2",
+    "react": "18.2.0",
+    "react-dnd": "16.0.1",
+    "react-dnd-html5-backend": "16.0.1",
+    "react-dom": "18.2.0",
+    "react-redux": "8.0.5",
+    "react-router-dom": "6.4.3",
+    "react-scripts": "5.0.1",
+    "react-sketch-canvas": "6.2.0",
+    "redux-persist": "6.0.0",
+    "yup": "^0.32.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "autoprefixer": "10.4.13",
+    "postcss": "8.4.21",
+    "tailwindcss": "3.2.4",
+    "typescript": "4.9.5"
+  },
+  "overrides": {
+    "postcss": "8.4.21",
+    "nth-check": ">=2.0.2"
+  },
+  "scripts": {
+    "start": "PORT=3002 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

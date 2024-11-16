@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "ES6", // 出力するJavaScriptのバージョン
+        "module": "ESNext", // モジュールシステム
+        "jsx": "react-jsx", // JSXサポート
+        "strict": true, // 厳格な型チェックを有効化
+        "moduleResolution": "node", // モジュール解決戦略
+        "esModuleInterop": true, // ESモジュールの互換性を有効にする
+        "skipLibCheck": true, // ライブラリの型チェックをスキップ
+        "forceConsistentCasingInFileNames": true, // 大文字小文字の一貫性を強制
+        "allowSyntheticDefaultImports": true, // デフォルトインポートを許可
+        "resolveJsonModule": true, // JSONモジュールを解決可能にする
+        "isolatedModules": true, // 個別モジュールの有効化
+        "noEmit": true // 出力ファイルの生成を行わない
+    },
+    "include": [
+        "src"
+    ] // 監視するディレクトリ
+}
